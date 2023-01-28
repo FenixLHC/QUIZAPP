@@ -3,6 +3,10 @@ import { shuffleArray } from './components/utils';
 
 export const urlApi='https://opentdb.com/api.php'
 
+export const urlApiDb = axios.create({
+  baseURL: ''
+})
+
 export enum Difficulty{
     EASY='easy',
     MEDIUM='medium',
